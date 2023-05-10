@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")// la ruta se cruza con angular
+@CrossOrigin(origins = "https://portafolioweb-yc.web.app")// la ruta se cruza con angular
 public class CExperiencia {
     @Autowired
     SExperiencia expeServ;
